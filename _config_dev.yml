@@ -1,0 +1,45 @@
+# Site settings
+name: B Salinas
+title: B Salinas | Designer & Software Engineer
+description: Design-minded software engineer focused on building beautiful interfaces and experiences
+url: https://b-salinas.github.io
+baseurl: ""
+email: b.salinas397@gmail.com
+cover: https://b-salinas.github.io/img/og.png # take site screenshot once I'm finished
+logo: https://b-salinas.github.io/img/emojis/technologist.png
+resume: https://b-salinas.github.io/resume.pdf # redo resume and upload
+social:
+  - title: email
+    url: mailto:b.salinas397@gmail.com
+  # - title: twitter
+  #   url: https://twitter.com/bchiang7
+  # - title: instagram
+  #   url: https://instagram.com/bchiang7
+  # - title: codepen
+  #   url: http://codepen.io/bchiang7
+  - title: github
+    url: https://github.com/b-salinas
+  - title: linkedin
+    url: https://www.linkedin.com/in/b-salinas
+    
+# Build settings
+markdown: kramdown
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
